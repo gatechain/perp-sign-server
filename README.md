@@ -31,6 +31,7 @@
 请求参数
 
 ```json
+下单
 {
    "tx" : {
         "contract": "BTC_USDT",
@@ -39,6 +40,16 @@
         "user_id": 12
    },
    "type": "order",
+   "priKey": "XXXXXXX", 新账户私钥
+}
+
+撤单
+{
+   "tx" : {
+        "order_id": "xxxxxx",
+        "user_id": 12
+   },
+   "type": "cancelOrder",
    "priKey": "XXXXXXX", 新账户私钥
 }
 ```
