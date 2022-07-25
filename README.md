@@ -42,3 +42,20 @@
    "priKey": "XXXXXXX", 新账户私钥
 }
 ```
+
+响应参数
+
+```json
+成功
+{
+    "code": 0,
+    "message": "success",
+    "sign": "0xd5b1c724d9cf3db4632df1514973b6f116189a3e76c63cf08c3e1bf345b438a36f7e61276b2606fbef9e6375a7322ed2b75259e87477a51c3941b906ffcfcc03"
+}
+失败
+{
+    "code": -1,
+    "message": "Signature Error.",
+    "sign": ""
+}
+```

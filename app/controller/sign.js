@@ -22,7 +22,6 @@ class SignController extends Controller {
 
         try {
             const signature = wallet.gateWallet.getSignature(tx, type)
-            console.log(signature.toString())
             ctx.body = {
                 code: 0,
                 message: 'success',
