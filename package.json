@@ -14,7 +14,7 @@
     "egg": "^2.36.0",
     "egg-cors": "^2.2.3",
     "egg-scripts": "^2.11.0",
-    "gatewallet": "^1.0.16"
+    "gatewallet": "^1.0.17"
   },
   "devDependencies": {
     "egg-bin": "^5.1.1"
