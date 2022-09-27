@@ -18,7 +18,7 @@ module.exports = () => {
     };
     config.perpContract = {
         85: {
-            GateChain: '0xCf8751cD1346149030Eca079EFBf8a73BEd45abc',
+            GateChain: '0x55778B172Ebd478626a01Cd0CC48e889DCe00472',
         }
     }
     return config;
