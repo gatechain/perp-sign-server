@@ -1,5 +1,5 @@
 'use strict';
-const gatewallet = require('gatewallet');
+const gatewallet = require('gatewallet/src/createWallet');
 
 /**
  * @controller
@@ -18,7 +18,7 @@ class SignController extends Controller {
         const { ctx } = this;
 
         const { tx, type, priKey } = ctx.request.body
-        const wallet = await gatewallet.default.createWalletFromGateChainAccount(signer, ctx.app.config.contract, priKey);
+        const wallet = await gatewallet.createWalletFromGateChainAccount(signer, ctx.app.config.contract, priKey);
 
         try {
             const signature = wallet.gateWallet.getSignature(tx, type)

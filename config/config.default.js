@@ -20,7 +20,7 @@ module.exports = appInfo => {
 
   config.perpContract = {
     85: {
-      GateChain: '0x609d24024F3DFe4cB5021A2686b8B67c3db6A0dd',
+      GateChain: '0xCf8751cD1346149030Eca079EFBf8a73BEd45abc',
     }
   }
   config.cluster = {
